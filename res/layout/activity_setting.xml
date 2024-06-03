@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/default_function" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_item_height" android:paddingStart="24.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.669983sp" android:textColor="@color/black" android:layout_gravity="start|center" android:id="@id/name_feature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="@string/setting_default_function" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/function_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/to_right_enter" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <Spinner android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/default_function_spinner" android:layout_width="fill_parent" android:layout_height="50.0dip" android:contentDescription="@string/setting_default_function" android:paddingEnd="31.669983dip" style="@style/mySpinner" />
+    </FrameLayout>
+    <View android:id="@id/default_function_view" android:background="@color/black_15_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <View android:id="@id/default_function_view2" android:background="@color/black_15_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:id="@id/function_sort" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_item_height" android:contentDescription="@string/about_title" android:paddingStart="24.0dip">
+        <TextView android:textSize="14.669983sp" android:textColor="@color/black" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_function_sort" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/sort_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/to_right_enter" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/privacy_policy" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.669983dip" android:layout_marginBottom="7.669983dip" android:minHeight="@dimen/setting_item_height" android:contentDescription="@string/privacy_policy" android:paddingStart="24.0dip">
+        <TextView android:textSize="14.669983sp" android:textColor="@color/black" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/policy_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/to_right_enter" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/about" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/setting_item_height" android:contentDescription="@string/about_title" android:paddingStart="24.0dip">
+        <TextView android:textSize="14.669983sp" android:textColor="@color/black" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_title" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/about_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/to_right_enter" />
+    </FrameLayout>
+</LinearLayout>

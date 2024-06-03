@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored" />
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="Theme">
+        <item name="android:buttonStyle">@style/Widget.Button</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.AutoCompleteTextView</item>
+        <item name="android:ratingBarStyle">@style/Widget.RatingBar</item>
+        <item name="android:ratingBarStyleSmall">@style/Widget.RatingBar.Small</item>
+        <item name="android:ratingBarStyleIndicator">@style/Widget.RatingBar.Indicator</item>
+        <item name="android:actionBarTabStyle">@style/Widget.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.ActionBar.TabBar</item>
+        <item name="android:actionBarSplitStyle">@style/Widget.ActionBar.Split</item>
+        <item name="android:actionModeStyle">@style/Widget.ActionMode</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/miuix_appcompat_transparent</item>
+        <item name="android:navigationBarColor">@color/miuix_appcompat_transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="actionBarButtonIconViewStyle">@style/Widget.ActionBarButtonIconStyle</item>
+        <item name="actionBarExpandState">expand</item>
+        <item name="actionBarExpandTabBarStyle">@style/Widget.ActionBar.TabBar.Expand</item>
+        <item name="actionBarMovableLayoutStyle">@style/Widget.ActionBarMovableLayout</item>
+        <item name="actionBarResizable">true</item>
+        <item name="actionBarSecondaryTabBarStyle">@style/Widget.ActionBar.TabBar.Secondary</item>
+        <item name="actionBarTabBadgeIcon">@drawable/miuix_appcompat_action_tab_badge</item>
+        <item name="actionBarTabExpandStyle">@style/Widget.ActionBar.TabView.Expand</item>
+        <item name="actionBarTabSecondaryStyle">@style/Widget.ActionBar.TabView.Secondary</item>
+        <item name="buttonBarDefaultButtonStyle">@style/Widget.Button.Primary</item>
+        <item name="editTextSearchStyle">@style/Widget.EditText.Search</item>
+        <item name="immersionMenuLayout">@layout/miuix_appcompat_action_bar_immersion</item>
+        <item name="panelMenuListWidth">296.0dip</item>
+        <item name="textColorSearchBarCancel">@color/miuix_appcompat_search_action_mode_cancel_text_color</item>
+        <item name="titleCenter">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowSearchMask">@drawable/miuix_appcompat_window_search_mask</item>
+        <item name="windowSplitActionBar">false</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

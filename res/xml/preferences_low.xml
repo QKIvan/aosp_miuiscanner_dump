@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaomi.scanner.setting.ValueListPreference android:title="@string/setting_default_function" android:key="setting_preference_default" android:widgetLayout="@layout/preference_right_widget" android:defaultValue="@integer/default_mode_index" android:dialogTitle="@string/setting_default_function" app:isPreferenceVisible="false" />
+    <miuix.preference.TextPreference android:title="@string/setting_function_sort" android:key="function_sort" app:isPreferenceVisible="false" />
+    <miuix.preference.TextPreference android:title="@string/privacy_policy" android:key="privacy_policy" />
+    <miuix.preference.TextPreference android:title="@string/about_title" android:key="about" />
+</PreferenceScreen>

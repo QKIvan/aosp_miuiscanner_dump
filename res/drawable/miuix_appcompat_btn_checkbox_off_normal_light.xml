@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/miuix_appcompat_check_widget_height_v19" android:width="@dimen/miuix_appcompat_check_widget_width_v19" android:viewportWidth="104.0" android:viewportHeight="104.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M52,52m-31.5,0a31.5,31.5 0,1 1,63 0a31.5,31.5 0,1 1,-63 0" android:strokeColor="#ff000000" android:strokeWidth="1.0" android:strokeAlpha="0.09615602" android:fillAlpha="0.04" android:fillType="evenOdd" />
+</vector>

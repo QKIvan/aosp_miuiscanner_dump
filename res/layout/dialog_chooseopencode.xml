@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_chooseopen_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginBottom="22.0dip" android:text="@string/choose_open_code_app" />
+    <ListView android:id="@id/dialog_chooseopencode_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="27.0dip" android:layout_marginBottom="23.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/dialog_chooseopencode_once" android:background="@drawable/dialog_toinstall_button" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginRight="6.0dip" android:text="@string/once" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff0097ff" android:gravity="center" android:id="@id/dialog_chooseopencode_always" android:background="@drawable/dialog_toinstall_button" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginLeft="6.0dip" android:text="@string/always" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

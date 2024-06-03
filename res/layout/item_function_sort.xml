@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/function_sort_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.669983dip" android:minHeight="@dimen/setting_item_height" android:paddingStart="24.0dip" android:paddingEnd="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.669983sp" android:textColor="@color/about_version" android:layout_gravity="start|center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/move" android:visibility="visible" android:layout_width="35.0dip" android:layout_height="35.0dip" android:scaleType="center" />
+</FrameLayout>

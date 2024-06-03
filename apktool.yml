@@ -1,0 +1,72 @@
+version: 2.9.3
+apkFileName: MiuiScanner.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 13220227
+  versionName: 13.2203.1
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  META-INF/android.support.design_material.version: 8
+  META-INF/androidx.activity_activity.version: 8
+  META-INF/androidx.annotation_annotation-experimental.version: 8
+  META-INF/androidx.appcompat_appcompat-resources.version: 8
+  META-INF/androidx.appcompat_appcompat.version: 8
+  META-INF/androidx.arch.core_core-runtime.version: 8
+  META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version: 8
+  META-INF/androidx.cardview_cardview.version: 8
+  META-INF/androidx.coordinatorlayout_coordinatorlayout.version: 8
+  META-INF/androidx.core_core.version: 8
+  META-INF/androidx.cursoradapter_cursoradapter.version: 8
+  META-INF/androidx.customview_customview.version: 8
+  META-INF/androidx.documentfile_documentfile.version: 8
+  META-INF/androidx.drawerlayout_drawerlayout.version: 8
+  META-INF/androidx.fragment_fragment.version: 8
+  META-INF/androidx.interpolator_interpolator.version: 8
+  META-INF/androidx.legacy_legacy-support-core-ui.version: 8
+  META-INF/androidx.legacy_legacy-support-core-utils.version: 8
+  META-INF/androidx.lifecycle_lifecycle-livedata-core.version: 8
+  META-INF/androidx.lifecycle_lifecycle-livedata.version: 8
+  META-INF/androidx.lifecycle_lifecycle-runtime.version: 8
+  META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version: 8
+  META-INF/androidx.lifecycle_lifecycle-viewmodel.version: 8
+  META-INF/androidx.loader_loader.version: 8
+  META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version: 8
+  META-INF/androidx.preference_preference.version: 8
+  META-INF/androidx.print_print.version: 8
+  META-INF/androidx.recyclerview_recyclerview.version: 8
+  META-INF/androidx.savedstate_savedstate.version: 8
+  META-INF/androidx.slidingpanelayout_slidingpanelayout.version: 8
+  META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version: 8
+  META-INF/androidx.tracing_tracing.version: 8
+  META-INF/androidx.transition_transition.version: 8
+  META-INF/androidx.vectordrawable_vectordrawable-animated.version: 8
+  META-INF/androidx.vectordrawable_vectordrawable.version: 8
+  META-INF/androidx.versionedparcelable_versionedparcelable.version: 8
+  META-INF/androidx.viewpager_viewpager.version: 8
+  META-INF/com.google.android.material_material.version: 8
+  META-INF/com/android/build/gradle/app-metadata.properties: 8
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: 0
+doNotCompress:
+- resources.arsc
+- assets/app.pfx
+- lib/arm64-v8a/libQuadrangleRecognizer.so
+- lib/arm64-v8a/libc++_shared.so
+- lib/arm64-v8a/libiconv.so
+- lib/arm64-v8a/libmiuiblursdk.so
+- lib/arm64-v8a/libscanner.so
+- lib/arm64-v8a/libzbarjni.so
+- png
+- ogg
+- webp

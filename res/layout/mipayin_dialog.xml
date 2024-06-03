@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_chooseopen_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/mipayin_dialog_title" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_mipayin_dialog_mipay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/icon_mipay" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mipayin_dialog_mipayName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_mipayin_dialog_more" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/icon_more" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mipayin_dialog_more" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_mipayin_dialog_save" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <CheckBox android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/mipayin_dialog_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:button="@drawable/choosepay_checkbox" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/pay_save_this_choose" />
+    </LinearLayout>
+    <Button android:textColor="#cc000000" android:gravity="center" android:id="@id/btn_mipayin_dialog_cancel" android:background="@drawable/bg_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="14.0dip" android:text="@string/cancel" android:maxLines="1" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+</LinearLayout>

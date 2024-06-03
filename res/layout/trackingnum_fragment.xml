@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/trackingNum_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/dataLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/query_trackingnum_bottomlayout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/trackingnum_logo">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/layout_shap_radius" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/waybill_num" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/sub_title" android:id="@id/waybill_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip">
+                            <TextView android:textSize="14.0sp" android:textColor="@color/sub_title" android:id="@id/trackingNum_timeYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                            <TextView android:textSize="12.0sp" android:textColor="#ff7f7f7f" android:id="@id/trackingNum_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+                            <ImageView android:id="@id/trackingNum_stateIcon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/icon_default" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="15.0sp" android:textColor="@color/sub_title" android:id="@id/trackingNum_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/sub_title" android:id="@id/trackingNum_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:id="@id/btn_trackingnum_details" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                        <TextView android:textSize="14.0sp" android:textColor="#ff0097ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/see_details" />
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/icon_more2" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/noData_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btn_trackingnum_copy" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="10.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/waybill_num" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/sub_title" android:id="@id/notData_waybill_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <Button android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/btn_query_tb" android:background="?buttonBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/taobao" />
+            <Button android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/btn_query_jd" android:background="?buttonBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/jingdong" />
+            <Button android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/btn_query_mishop" android:background="?buttonBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/mishop" />
+            <Button android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/btn_query_tracknum" android:background="?buttonBackground" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/queryNum" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/sub_title" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/query_faile" />
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@id/btn_query_tracknum_AI" android:background="?buttonBackground" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="14.0dip" android:text="@string/queryNum" android:maxLines="1" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" style="@style/Widget.Button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/query_trackingnum_bottomlayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_above="@id/query_trackingnum_bottomlayout">
+            <ImageView android:id="@id/trackingnum_logo" android:background="@drawable/kuaidi100_logo" android:layout_width="13.0dip" android:layout_height="13.0dip" android:contentDescription="@null" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/kuaidi100_data" />
+        </LinearLayout>
+        <Button android:textColor="@color/white" android:gravity="center" android:id="@id/btn_query_more" android:background="?buttonBackgroundWarning" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="14.0dip" android:text="@string/query_more" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    </LinearLayout>
+</RelativeLayout>
